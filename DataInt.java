@@ -8,4 +8,9 @@ class DataInt{
     DataInt(){
 
     }
+
+    public String toString() {
+        return "Marks{ 1= " + a + ", 2 =" + b + " }";
+
+    }
 }
